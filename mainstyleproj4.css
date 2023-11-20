@@ -1,0 +1,45 @@
+body {
+    background-image: url('/Users/zackpaulson/Desktop/SchoolFolders/SchoolFall2023/assignment4/asseta/pitt-jolie-large.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 105% 45%; /* Set the width and height to 50% each */
+    margin: 0;
+    padding: 0px;
+}
+
+.red-ampersand {
+    color: red;
+}
+
+.container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: white;
+}
+
+header {
+    font-size: 2.5rem; 
+    text-align: center;
+}
+
+h {
+    font-weight: bold;
+}
+
+.rating-stars {
+    font-size: 1.5rem;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    header {
+        font-size: 2rem;
+    }
+}
